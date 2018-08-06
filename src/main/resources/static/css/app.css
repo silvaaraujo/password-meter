@@ -1,0 +1,57 @@
+.container {
+	width: 30%;  
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.title-component {
+	font-weight: bold;
+}
+
+.sub-panel {
+	background-color: #f1efef;
+	padding: 10px;
+}
+
+.score {
+	/* border: solid; */
+    background-color: #ccc;
+    width: 80px;
+    text-align: center;
+    font-size: small;
+}
+
+.tip {
+    text-align: center;
+    margin-left: 5px;
+    font-size: small;
+    background-image: url(../img/bg_strength_gradient.jpg);
+	/* background-repeat: no-repeat; */
+	background-position: 0 0;
+	/* position:absolute; */
+	width: 100px;
+	z-index: 0;
+	color: #333;
+    font-weight: bold;
+}
+
+.div-result {
+    padding-top: 10px;
+	display: flex;
+}
+
+.pass {
+	width: 80%;
+}
+
+.scorebar {
+	background-image: url(../img/bg_strength_gradient.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	position:absolute;
+	width: 100px;
+	z-index: 0;
+}
